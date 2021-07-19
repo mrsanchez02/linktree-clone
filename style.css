@@ -62,12 +62,24 @@ img{
 .redes-sociales{
     display: flex;
     flex-direction: row;
+    text-align: center;
+}
+
+.social-container {
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .social{
     font-size: 2rem;
     margin: 0 .5rem;
     color: rgb(54, 54, 54);
+    align-self: center;
+    justify-self: center;
+}
+
+.social:hover{
+    font-size: 2.2rem;
 }
 
 .footer{
